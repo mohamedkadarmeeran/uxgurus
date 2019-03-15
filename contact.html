@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- reset css -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <!-- styles -->
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <title>About US</title>
+  <!-- js links -->
+  <script src="./js/main.js"></script>
+</head>
+<body>
+   <!-- header section starts here-->
+  <div class="header">
+    <a class="logo" title="logo" href="index.html"><img src="./assets/images/Logo.svg" class="logoimg" alt="logo"></a>
+    <div class="navbar">
+      <ul class="navbarli">
+        <li> <a class="navbarlist" href="about.html" title="about us"> About US</a></li>
+        <li> <a class="navbarlist" href="services.html" title="services"> Services</a></li>
+        <li> <a class="navbarlist" href="process.html" title="our process">Our Process</a></li>
+        <li> <a class="navbarlist" href="whyus.html" title="why us?"> Why Us?</a></li>
+        <li> <a class="navbarlist" id="contact"href="contact.html" title="contact ">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- header section ends here-->
+   <!-- contactus section starts here-->
+   <div class="contact1">
+   <div class="contactmain">
+    <h1 class="contactheading">Contact Us </h1>
+     <input type="text" name="name" placeholder="Your Name" class="contact__input" id="name">
+     <input type="text" name="email" placeholder="Your Email" class="contact__input" id="email">
+      <input type="number" min="disable" max="disable" name="Phoneno" placeholder="Your Phone " class="contact__input" id="phoneno">
+      <input type="text" name="message" placeholder="message" class="contact__input" id="message"><br>
+      <p class='contact__errMsg' id="errname" style="display:none;">Please enter the name</p> 
+       <p class='contact__errMsg' id="erremail" style="display:none;">Please enter the email</p> 
+           <p class='contact__errMsg' id="errphoneno" style="display:none;">Please enter the phone no</p> 
+            <p class='contact__errMsg' id="errmsg" style="display:none;">Please enter the message</p>
+            <p class='contact__sucessmsg' id="success" style="display:none;">Request sent successfully<!-- Thank you for showing interset -->.</p>
+      <button class="contact__button" onclick="Submit()">Send</button>
+    </div>
+   </div>
+   <div class="map">
+<iframe  width="100%" height="400px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.814477179556!2d77.6582454!3d13.0227016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8729ffdefb7159ac!2sUXGURUS+Consultancy!5e0!3m2!1sen!2sin!4v1552556279246" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+   <!-- contactus section enda here-->
+    <!-- footer section starts here-->
+<div class="footer">
+  <div class="footer__content"> 
+    <div class="footer__logoDiv">
+      <a href="#"><img src="./assets/images/footerimg.png" class=" footer__logo" alt="logo">  </a>
+    </div> 
+    <div class="footerDiv">
+      <div class=" myClass quicklinks ">
+        <h6 class="quicklinksheader">QuickLinks </h6>
+        <ul>
+        <li><a href="about.html" class="footer-menu">About us</a></li>
+        <li><a href="services.html" class="footer-menu">Services</a></li>
+        <li><a href="process.html" class="footer-menu">Our process</a></li>
+        <li><a href="whyus.html" class="footer-menu">Why Us?</a></li>
+        <li><a href="contact.html" class="footer-menu">Contact</a></li>
+        </ul>
+      </div>
+      <div class="register myClass">
+        <h5 class="registerheader">Registered Office </h5>
+          <p class="regaddress"><img src="./assets/images/pin.png" class=" location" alt="location"> 138, Elegant Supreme  <br>
+              Apartments 304, 2,  <br>
+              Horamavu Main Rd, Banswadi <br>
+              Bengaluru - 560043<br>
+              Karanataka, India </p>
+      </div>
+    <div class="share myClass">
+        <h5 class="shareheader">To Share your Profile </h5>
+        <p class="shareaddress"><img src="./assets/images/envelope.png" class="envelope" alt="envelope"> <a href="mailto:careers@theuxgurus.com" class="mail" title="careers"> careers@theuxgurus.com </a></p>
+    </div>
+      <div class="contact myClass">
+          <h5 class="contactheader"> Contact</h5>
+          <p class="contdetails"><img src="./assets/images/envelope.png" class="envelope" alt="envelope"> <a href="mailto:admin@theuxgurus.com" class="mail" title="careers"> admin@theuxgurus.com </a> </p>
+          <p class="contdetails"><img src="./assets/images/call.png" class="call" alt="call"> <a class="mail" href="tel:01234567890">+91 9876543210 </a> </p>
+          <h5 class="followheader"> Follow On</h5>
+          <div class="social-networks">
+              <a href="https://www.facebook.com/uxgurusconsultants/" target="_blank" class="facebook footer-icon"><img src="./assets/images/facebook-logo.png" class="facebook" alt="fb"></a>
+              <a href="https://twitter.com/UXGURUS1" target="_blank" class="twitter footer-icon"><img src="./assets/images/twitter-logo.png" class="twitter-logo" alt="twitter-logo"></a>
+              <a href="https://in.linkedin.com/company/uxgurus-consultancy" target="_blank" class="google footer-icon"><img src="./assets/images/linkedin-logo.png" class="linkedin" alt="linkedin-logo"></a>     
+          </div>  
+      </div>
+    </div>
+    
+</div>
+<hr ></hr>
+<p class="copyright_text">© Copyright 2019 UXGURUS</p>
+</div>
+<!-- footer section ends here-->
+  </body>
+  </html>

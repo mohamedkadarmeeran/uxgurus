@@ -1,0 +1,200 @@
+@font-face{
+font-family:Bellefair-Regular ;
+src: url(../fonts/Bellefair-Regular.ttf);
+}
+@font-face{
+font-family:OpenSans-Regular ;
+src: url(../fonts/OpenSans-Regular.ttf);
+}
+.header {
+overflow: auto;
+background: #ffffff;
+position: fixed;
+top: 0;
+padding: 16px 32px;
+width: 100%;
+border-radius: 0;
+border: none;
+z-index: 1;
+/*box-shadow: 0px 1px 3px #e3e3e3;*/
+ box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+}
+.logoimg{
+max-width: 15%;
+height: auto;
+}
+.navbar{
+float: right;
+padding-top: 5px;
+}
+.navbarli {
+list-style-type: none;
+padding: 10px 30px;
+}
+.navbarli li {
+display: inline-block;
+}
+.navbarlist{
+text-decoration: none;
+color: #565656;
+padding-right: 35px;
+font-size: 15px;
+/*  font-family:Bellefair-Regular ;*/
+font-family:OpenSans-Regular ;
+font-weight: bold;
+}
+.clear{
+clear:both;
+}
+.navbarlist:hover {
+    text-decoration: none;
+    color:#32d6c8;
+    }
+#about{
+    color: #15a99c;
+}
+.aboutheading{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+    color: #f37a75;
+    font-family: OpenSans-Regular;
+    text-align: center;
+    border-bottom: 1px solid #f37a75;
+    padding-top: 8%;
+    width: 8%;
+    margin-left: 584px;
+    text-transform: uppercase;
+}
+.aboutcontain{
+    padding-top: 2%;    
+}
+.aboutimg{
+	width: 400px;
+	float: left;
+	margin-left: 3%;
+    margin-bottom: 5%;
+}
+.aboutcontain1{
+	float: right;
+    font-family: Bellefair-Regular;
+    width: 53%;
+    font-size: 44px;
+    color: #626262;
+    font-weight: normal;
+    line-height: 3rem;
+    margin-right: 50px;
+    margin-bottom: 3%;
+}
+.aboutcontain2{
+	float: right;
+    font-family: OpenSans-Regular;
+    width: 53%;
+    font-size: 20px;
+    color: #626262;
+    margin-right: 50px;
+    line-height: 1.75rem;
+    font-weight: 200;
+}
+    /*footer starts from here*/
+.footer{
+    /* background-color: #f2f2f2; */
+    background-color: #e1f1ff;
+   clear: both;
+}
+.footer__logoDiv{
+    width: 20%; 
+    float: left; 
+    margin: 0px 0px 0px 0px;
+}    
+.footer__content{ 
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 50px; 
+    margin-bottom: 50px;
+    overflow: hidden;
+} 
+.footer__logo{
+    width: 35%;
+    float: right;
+    margin-right: 100px;
+    height: 100px;
+}
+.footerDiv{
+    width: 80%; 
+    float: right;
+}
+.quicklinks{
+    width: 20%;
+}
+.register{
+    width: 27%;
+}
+.share{
+    width: 26%;
+}
+.contact{
+    width: 25%;
+}
+.mail{
+    text-decoration: none;
+    color: #626262;
+}
+.myClass{
+    display: inline-block;    
+    vertical-align: top;
+}
+.footerlogoimg{
+    width: 15%;
+    display: inline-block;
+}
+.footer-menu{
+    text-decoration: none;
+    font-family:OpenSans-Regular ;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #626262;
+}
+.registerheader, .quicklinksheader, .shareheader, .contactheader, .followheader{
+     font-family:OpenSans-Regular ;
+      font-weight: bold;
+      font-size: 17px;
+      margin-bottom: 10px;
+}
+.followheader{
+margin-top: 35px;
+}
+.regaddress, .shareaddress, .contdetails{
+    font-family:OpenSans-Regular ;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #626262;
+}
+.location, .envelope, .call{
+    height: 12px;
+}
+
+.social-networks {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.facebook, .twitter-logo, .linkedin{
+    height: 30px;
+    width: 30px;
+    opacity:5;
+}
+.twitter-logo, .linkedin{
+    margin-left: 5px;
+}
+.facebook:hover, .twitter-logo:hover, .linkedin:hover{
+    opacity: 0.4;
+}
+.copyright_text {
+    font-family: OpenSans-Regular;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #626262;
+}
+/*footer ends  here*/

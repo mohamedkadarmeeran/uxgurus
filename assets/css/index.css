@@ -1,0 +1,452 @@
+@font-face{
+font-family:Bellefair-Regular ;
+src: url(../fonts/Bellefair-Regular.ttf);
+}
+@font-face{
+font-family:OpenSans-Regular ;
+src: url(../fonts/OpenSans-Regular.ttf);
+}
+.header {
+overflow: auto;
+background: #ffffff;
+position: fixed;
+top: 0;
+padding: 16px 32px;
+width: 100%;
+border-radius: 0;
+border: none;
+z-index: 1;
+/*box-shadow: 0px 1px 3px #e3e3e3;*/
+ box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+}
+.logoimg{
+max-width: 15%;
+height: auto;
+}
+.navbar{
+float: right;
+padding-top: 5px;
+}
+.navbarli {
+list-style-type: none;
+padding: 10px 30px;
+}
+.navbarli li {
+display: inline-block;
+}
+.navbarlist{
+text-decoration: none;
+color: #565656;
+padding-right: 35px;
+font-size: 15px;
+/*  font-family:Bellefair-Regular ;*/
+font-family:OpenSans-Regular ;
+font-weight: bold;
+}
+.clear{
+clear:both;
+}
+.navbarlist:hover {
+    text-decoration: none;
+   color:#32d6c8;
+}
+/*banner starts from here*/
+.bannerimg{
+background: url('../images/banner.svg') no-repeat;
+height: 339px;
+background-position: center;
+width: auto;
+margin-top: 5%;
+background-color:  #e1f1ff;
+text-align: center;
+
+}
+.banner{
+background-color: #e1f1ff;
+margin-bottom: 5%;
+}
+.banner h1 {
+font-family: Bellefair-Regular;
+    font-size: 4rem;
+    font-weight: 100;
+    padding:6rem 0 1rem 0;
+    color: #565656;
+    margin: 0;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 5%;
+}
+.common_section  {
+    font-size: 1.2rem;
+    padding: 0;
+    color: #565656;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+    font-family: OpenSans-Regular;
+}
+.contain{
+margin-bottom: 5%;
+}
+.containimg{
+float: right;
+height: 400px;
+width: auto;
+margin-right: 30px;
+}
+.contain1{
+margin-bottom: 2%;
+margin-left: 15%;
+width: 39%;
+font-size: 2.8rem;
+color: #626262;
+font-family:Bellefair-Regular;
+float: left;
+line-height: 3rem;
+}
+.contain2{
+margin-left: 15%;
+width: 33%;
+font-size: 1.75rem;
+color: #91969c;
+font-family:OpenSans-Regular ;
+margin-bottom: 2%;
+float: left;
+line-height: 2.5rem;
+}
+.talentbutton{
+border: none;
+text-align: center;
+height: 50px;
+width: 180px;
+cursor: pointer;
+color: #fff;
+font-size: 17px;
+margin-left: 15%;
+outline: none;
+background-color: #32d6a9;
+font-weight: bold;   
+border-radius: 50px;
+}
+.talentbutton:hover{
+ background-color: #15a99c;
+}
+/*development skillsets starts here*/
+/*resCarousel Css*/
+.p8{
+    margin-bottom: 3%;
+    padding-top: 30px;
+}
+  .developmentheading{
+font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+    color: #f37a75;
+    font-family: OpenSans-Regular;
+    text-align: center;
+    border-bottom: 1px solid #f37a75;
+    width: 53%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+        .class1 {
+            background: url('../images/html.png') center center no-repeat;
+            height: 100px;
+                width: 150px;
+            color: white;
+            background-size: contain;
+        }
+        .class2 {
+            background: url('../images/css.png') center center no-repeat;
+            height: 100px;
+                width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class3 {
+            background: url('../images/javascript.png') center center no-repeat;
+         height: 100px;
+             width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class4 {
+            background: url('../images/jquery.png') center center no-repeat;
+           height: 100px;
+               width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class5 {
+            background: url('../images/angular.png') center center no-repeat;
+           height: 100px;
+               width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class6 {
+            background: url('../images/react.png') center center no-repeat;
+            height: 100px;
+                width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class7 {
+            background: url('../images/knockoutjs.png') center center no-repeat;
+           height: 100px;
+               width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class8 {
+           background: url('../images/resp.png') center center no-repeat;
+           height: 100px;
+               width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class9 {
+              background: url('../images/redux.png') center center no-repeat;
+        height: 100px;
+            color: white;
+            background-size: contain;
+        }
+                .class10 {
+                     background: url('../images/backbone.png') center center no-repeat;
+                     height: 100px;
+                width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class11 {
+            background: url('../images/type.png') center center no-repeat;
+         height: 100px;
+             width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class12 {
+                     background: url('../images/nodejs.png') center center no-repeat;
+                        height: 100px;
+                width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class13 {
+            background: url('../images/ember.png') center center no-repeat;
+           height: 100px;
+               width: 150px;
+            color: white;
+            background-size: contain;
+        }
+                .class14 {
+            background: url('../images/vue.png') center center no-repeat;
+            height: 100px;
+                width: 150px;
+                        color: white;
+            background-size: contain;
+        }
+    
+.outt {
+    display: none;
+}
+
+.leftarrowimg, .rightarrowimg{
+    height: 20px;
+    width: 20px;
+}
+.leftarrowimg{
+     vertical-align: middle;
+     margin-right: 5px;
+}
+.rightarrowimg{
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.leftRs {
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    bottom: 0;
+cursor: pointer;
+    left: 0;
+    width: 40px;
+    height: 40px;
+       border-radius: 999px;
+margin-left: 80px;
+outline: none;
+border: none;
+}
+.leftRs:hover{
+      box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+}
+.rightRs:hover{
+      box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+}
+.rightRs {
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    right: 0;
+    bottom: 0; 
+ cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+ margin-right: 60px;
+ outline: none; 
+ border: none;
+}
+#leftarrow, #rightarrow{
+    border-radius: 25px;
+}
+
+.resCarousel {
+    /*float: left;
+    overflow: hidden;*/
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.resCarousel-inner {
+    overflow-x: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    vertical-align: top;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+.resCarousel-inner .item {
+    display: inline-block;
+    font-size: 14px;
+    white-space: initial;
+}
+
+
+/*tile css*/
+
+.resCarousel-inner .item .tile {
+    background: white;
+    margin: 25px
+}
+.tile{
+    text-align: center;
+}
+
+/*animation*/
+
+.resCarousel[data-animator="lazy"] .item {
+    transition: .6s ease all;
+}
+
+
+
+
+/*resCarousel Css End*/
+/*development skillsets ends here*/
+/*footer starts from here*/
+.footer{
+    /* background-color: #f2f2f2; */
+    background-color: #e1f1ff;
+    overflow: hidden; 
+}
+.footer__logoDiv{
+    width: 20%; 
+    float: left; 
+    margin: 0px 0px 0px 0px;
+}    
+.footer__content{ 
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    overflow: hidden;
+} 
+.footer__logo{
+    width: 35%;
+    float: right;
+    margin-right: 100px;
+    height: 100px;
+}
+.footerDiv{
+    width: 80%; 
+    float: right;
+}
+.quicklinks{
+    width: 20%;
+}
+.register{
+    width: 27%;
+}
+.share{
+    width: 26%;
+}
+.contact{
+    width: 25%;
+}
+.myClass{
+    display: inline-block;    
+    vertical-align: top;
+}
+.footerlogoimg{
+    width: 15%;
+    display: inline-block;
+}
+.footer-menu{
+    text-decoration: none;
+    font-family:OpenSans-Regular ;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #626262;
+}
+.mail{
+    text-decoration: none;
+    color: #626262;
+}
+.registerheader, .quicklinksheader, .shareheader, .contactheader, .followheader{
+     font-family:OpenSans-Regular ;
+      font-weight: bold;
+      font-size: 17px;
+      margin-bottom: 10px;
+}
+.followheader{
+margin-top: 35px;
+}
+.regaddress, .shareaddress, .contdetails{
+    font-family:OpenSans-Regular ;
+        line-height: 1.5;
+        font-size: 14px;
+        color: #626262;
+}
+.location, .envelope, .call{
+    height: 12px;
+}
+
+.social-networks {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.facebook, .twitter-logo, .linkedin{
+    height: 30px;
+    width: 30px;
+    opacity:5;
+}
+.twitter-logo, .linkedin{
+    margin-left: 5px;
+}
+.facebook:hover, .twitter-logo:hover, .linkedin:hover{
+    opacity: 0.4;
+}
+.copyright_text {
+    font-family: OpenSans-Regular;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #626262;
+}
+/*footer ends  here*/
+
+/*footer code siva */
